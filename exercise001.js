@@ -12,7 +12,7 @@ const promise = new Promise((resolve, reject) => {
 });
 
 // Your solution(s) to exercise001 here!
-async function resolvePromise() {
+const resolvePromise = async () => {
 	try {
 		const resolvedPromise = await promise;
 		console.log(`Yay! Promise resolved with response: ${resolvedPromise}`);
