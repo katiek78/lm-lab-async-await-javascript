@@ -14,7 +14,7 @@ const fetchData = async (apiEndPoint) => {
       } else {
         console.log(`Katie's last played track 💿 on Last.FM was ${tracks[0].name} by ${tracks[0].artist["#text"]}`);
       }
-      console.log(`Recently played tracks on Last.FM 📅:`);
+      console.log(`Katie's recently played tracks on Last.FM 📅:`);
       tracks.slice(1).forEach(track => {
         console.log(`🟣 ${track.name} by ${track.artist["#text"]}`);
       })
